@@ -1,3 +1,6 @@
+
+/*=====================CUSTOM PLAY/PAUSE VIDEO=========================*/
+
 const videoFile = document.getElementById("video-file"),
 	videoButton = document.getElementById("video-button"),
 	videoIcon = document.getElementById("video-icon");
@@ -27,6 +30,7 @@ function finalVideo() {
 // ended, when the video ends
 videoFile.addEventListener("ended", finalVideo);
 
+/*=====================SCROLL TOP=========================*/
 function scrollTop() {
 	const scrollTop = document.getElementById("scroll-top");
 	// When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
